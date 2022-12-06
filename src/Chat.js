@@ -54,6 +54,7 @@ function Chat(){
                 <div className="chat_icons">
                     <Search className="chat_icon"/>
                     <MoreVert className="chat_icon"/>
+                    <p>asd</p>
                 </div>
             </div>
 
