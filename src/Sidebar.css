@@ -1,0 +1,80 @@
+.sidebar{
+    width: 35%;
+    height: 100%;
+    background-color: #111b21;
+    border-radius: 15px 0 0 15px;
+    border-right:1px solid #202c33;
+}
+.header{
+    display: flex;
+    background-color: #202c33;
+    border-radius: 15px 0 0 0;
+    padding: 20px;
+    justify-content: space-between;
+}
+.icon{
+    cursor: pointer;
+}
+.search_icon{
+    cursor: pointer;
+    margin-left: 10px;
+    position: absolute;
+}
+.arrow{
+    cursor: pointer;
+    margin-left: 10px;
+    visibility: hidden;
+}
+.search_icon .arrow{
+    visibility: hidden;
+}
+.arrow .arrow{
+    visibility: visible;
+}
+.icons{
+    display: flex;
+    color: #aebac1;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+.search{
+    margin: 15px;
+    height: 5vh;
+    display: flex;
+    color: #aebac1;
+    background-color: #202c33;
+    border-radius: 10px;
+    align-items: center;
+}
+.search input{
+    background-color: #202c33;
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 4vh;
+    width: 75%;
+    border: none;
+    outline: none;
+    color: white;
+}
+.chat{
+    flex: 1;
+    background-color: #111b21;
+    overflow: scroll;
+    height: 78.6%;
+    width: 100%;
+    border-radius: 0 0 0 15px;
+    overflow-x:hidden;
+}
+.chat::-webkit-scrollbar {
+    width: 10px;
+    visibility: hidden;
+}
+.chat::-webkit-scrollbar-thumb {
+    background-color: #202c33;
+    font-size: 5px;
+    height: 3px;
+}
+.chat::-webkit-scrollbar-track {
+    display: none;
+}

@@ -1,0 +1,29 @@
+.login{
+    width: 50%;
+    height: 90%;
+    background-color: #176b5b;
+    color: #aebac1;
+}
+.login_container{
+    margin: 120px;
+    text-align: center;
+    background-color: #202c33;
+    border-radius: 15px;
+    border: 2px solid #111b21;
+}
+.login_text{
+    margin-bottom: 20px;
+}
+input{
+    border-radius: 5px;
+    height: 40px;
+    width: 260px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.login_button{
+    border: 1px solid #aebac1 !important;
+    background-color: #176b5b !important;
+    text-transform: inherit !important;
+    color: #aebac1 !important;
+}

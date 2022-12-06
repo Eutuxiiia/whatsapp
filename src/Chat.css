@@ -1,0 +1,111 @@
+.main_chat{
+    width: 65%;
+    height: 100%;
+    background-color: #111b21;
+    border-radius: 0 15px 15px 0;
+    flex-direction: column;
+}
+.chat_header{
+    display: flex;
+    background-color: #202c33;
+    border-radius: 0 15px 0 0;
+    padding: 20px;
+    justify-content: space-between;
+    border-left:1px solid #111b21;
+}
+.chat_avatar{
+    cursor: pointer;
+}
+.main_chat h2{
+    color: #aebac1;
+    margin-top: 6px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex: 1;
+}
+.chat_icon{
+    cursor: pointer;
+    margin-left: 25px;
+ }
+.chat_icons{
+    display: flex;
+    color: #aebac1;
+    align-items: center;
+}
+.chat_body{
+    flex: 1;
+    background-color: rgb(17, 36, 28);
+    overflow: scroll;
+    height: 69%;
+    padding: 30px;
+    overflow-x:hidden;
+}
+.chat_body::-webkit-scrollbar {
+    width: 10px;
+    visibility: hidden;
+}
+.chat_body::-webkit-scrollbar-thumb {
+    background-color: #202c33;
+    font-size: 5px;
+    height: 3px;
+}
+.chat_body::-webkit-scrollbar-track {
+    display: none;
+}
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #202c33;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+    color: white;
+}
+.chat_name{
+    color: skyblue;
+    margin-bottom: 5px;
+}
+.chat_time{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #aebac1;
+}
+.chat_receiver{
+    margin-left: auto;
+    background-color: #176b5b;
+}
+.chat_receiver .chat_name{
+    color: coral;
+}
+
+.chat_footer{
+    background-color: #202c33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 71px;
+    border-radius: 0 0 15px 0;
+}
+.chat_footer form{
+    flex: 1;
+    display: flex;
+}
+.chat_footer form input{
+    flex: 1;
+    border-radius: 10px;
+    padding: 17px;
+    border: none;
+    background-color: #aebac1;
+    margin: 5px;
+    height: 2vh;
+}
+.chat_footer form button{
+    display: none;
+}
+.chat_icon{
+    color: grey;
+    font-size: 15px;
+    margin: 5px;
+}
