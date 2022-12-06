@@ -56,6 +56,7 @@ function Chat(){
                     <MoreVert className="chat_icon"/>
                     <p>asd</p>
                     <p>baha</p>
+                    <p>Helloo</p>
                 </div>
             </div>
 
